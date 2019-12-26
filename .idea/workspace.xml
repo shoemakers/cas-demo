@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5e55d3d9-f0ed-45b8-bfbe-1cacea1353c2" name="Default Changelist" comment="cas demo 基本功能">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-doc/redeMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/BUILDING.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/NOTICE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/RELEASE-NOTES" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/RUNNING.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/bootstrap.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/cas.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/catalina-tasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/catalina.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/catalina.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/commons-daemon-native.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/commons-daemon.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/configtest.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/configtest.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/daemon.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/digest.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/digest.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/perfStats.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/service.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/setclasspath.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/setclasspath.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/shutdown.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/shutdown.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/startup.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/startup.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/tcnative-1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/tomcat-juli.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/tomcat-native.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/tomcat8.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/tomcat8w.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/tool-wrapper.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/tool-wrapper.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/version.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/bin/version.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/conf/catalina.policy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/conf/catalina.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/conf/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/conf/jaspic-providers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/conf/jaspic-providers.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/conf/server.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/conf/tomcat-users.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/annotations-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/catalina-ant.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/catalina-ha.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/catalina-storeconfig.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/catalina-tribes.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/catalina.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/ecj-4.6.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/el-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/jasper-el.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/jasper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/jaspic-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/jsp-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/servlet-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/tomcat-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/tomcat-coyote.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/tomcat-dbcp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/tomcat-i18n-es.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/tomcat-i18n-fr.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/tomcat-i18n-ja.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/tomcat-i18n-ru.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/tomcat-jdbc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/tomcat-jni.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/tomcat-util-scan.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/tomcat-util.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/tomcat-websocket.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/lib/websocket-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/logs/catalina.2019-12-25.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/logs/catalina.2019-12-26.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/logs/host-manager.2019-12-25.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/logs/host-manager.2019-12-26.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/logs/localhost.2019-12-25.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/logs/localhost.2019-12-26.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/logs/localhost_access_log.2019-12-25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/logs/localhost_access_log.2019-12-26.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/logs/manager.2019-12-25.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/logs/manager.2019-12-26.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/temp/jansi-64-3633454531380276150.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/temp/safeToDelete.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/META-INF/INDEX.LIST" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/META-INF/maven/org.jasig.cas/cas-server-webapp/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/META-INF/maven/org.jasig.cas/cas-server-webapp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/META-INF/war-tracker" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/cas-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/cas.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/cas-theme-default.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/default_views.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/messages_ar.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/messages_ca.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/messages_cs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/messages_de.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/messages_es.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/messages_fa.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/messages_fr.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/messages_hr.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/messages_it.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/messages_ja.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/messages_mk.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/messages_nl.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/messages_pl.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/messages_pt_BR.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/messages_pt_PT.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/messages_ru.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/messages_sl.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/messages_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/messages_tr.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/messages_ur.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/messages_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/messages_zh_TW.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/protocol_views.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/classes/saml_views.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/deployerConfigContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/aspectjrt-1.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/aspectjweaver-1.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/cas-server-core-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/cas-server-support-generic-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/cas-server-support-jdbc-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/cas-server-webapp-support-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/commons-codec-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/commons-collections-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/commons-jexl-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/commons-lang-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/hibernate-commons-annotations-4.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/hibernate-core-4.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/hibernate-validator-4.2.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/inspektr-audit-1.0.7.GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/inspektr-common-1.0.7.GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/inspektr-error-1.0.7.GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/inspektr-support-spring-1.0.7.GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/javassist-3.15.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/jaxb-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/jaxb-impl-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/jboss-logging-3.1.0.CR2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/jcl-over-slf4j-1.7.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/joda-time-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/jstl-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/mysql-connector-java-5.1.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/perf4j-0.9.16-log4jonly.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/person-directory-api-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/person-directory-impl-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/quartz-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/slf4j-api-1.7.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/slf4j-log4j12-1.7.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/spring-aop-3.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/spring-beans-3.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/spring-binding-2.3.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/spring-context-3.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/spring-context-support-3.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/spring-core-3.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/spring-expression-3.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/spring-jdbc-3.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/spring-js-2.3.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/spring-js-resources-2.3.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/spring-orm-3.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/spring-security-config-3.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/spring-security-core-3.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/spring-security-web-3.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/spring-tx-3.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/spring-web-3.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/spring-webflow-2.3.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/spring-webmvc-3.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/stax-api-1.0-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/lib/validation-api-1.0.0.GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/login-webflow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/logout-webflow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/restlet-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/spring-configuration/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/spring-configuration/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/spring-configuration/argumentExtractorsConfiguration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/spring-configuration/auditTrailContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/spring-configuration/filters.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/spring-configuration/log4jConfiguration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/spring-configuration/propertyFileConfigurer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/spring-configuration/securityContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/spring-configuration/ticketExpirationPolicies.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/spring-configuration/ticketGrantingTicketCookieGenerator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/spring-configuration/ticketRegistry.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/spring-configuration/uniqueIdGenerators.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/spring-configuration/warnCookieGenerator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/unused-spring-configuration/clearpass-configuration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/unused-spring-configuration/lppe-configuration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/unused-spring-configuration/mbeans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/authorizationFailure.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/default/ui/123.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/default/ui/casAccountDisabledView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/default/ui/casAccountLockedView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/default/ui/casBadHoursView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/default/ui/casBadWorkstationView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/default/ui/casConfirmView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/default/ui/casExpiredPassView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/default/ui/casGenericSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/default/ui/casLoginMessageView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/default/ui/casLoginView - 副本.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/default/ui/casLoginView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/default/ui/casLogoutView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/default/ui/casMustChangePassView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/default/ui/includes/bottom.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/default/ui/includes/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/default/ui/serviceErrorSsoView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/default/ui/serviceErrorView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/errors.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/monitoring/viewStatistics.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/protocol/2.0/casProxyFailureView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/protocol/2.0/casProxySuccessView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/protocol/2.0/casServiceValidationFailure.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/protocol/2.0/casServiceValidationSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/protocol/3.0/casServiceValidationFailure.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/protocol/3.0/casServiceValidationSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/protocol/casPostResponseView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/protocol/clearPass/clearPassFailure.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/protocol/clearPass/clearPassSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/protocol/oauth/confirm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/protocol/openid/casOpenIdAssociationFailureView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/protocol/openid/casOpenIdAssociationSuccessView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/protocol/openid/casOpenIdServiceFailureView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/protocol/openid/casOpenIdServiceSuccessView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/view/jsp/protocol/openid/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/css/cas.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/images/confirm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/images/error.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/images/green.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/images/info.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/images/ja-sig-logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/images/key-point_bl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/images/key-point_br.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/images/key-point_tl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/images/key-point_tr.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/images/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/images/red.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/webapps/cas/js/cas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/work/Catalina/localhost/cas/org/apache/jsp/WEB_002dINF/view/jsp/default_/ui/casGenericSuccess_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/work/Catalina/localhost/cas/org/apache/jsp/WEB_002dINF/view/jsp/default_/ui/casGenericSuccess_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/work/Catalina/localhost/cas/org/apache/jsp/WEB_002dINF/view/jsp/default_/ui/casLoginView_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/work/Catalina/localhost/cas/org/apache/jsp/WEB_002dINF/view/jsp/default_/ui/casLoginView_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/work/Catalina/localhost/cas/org/apache/jsp/WEB_002dINF/view/jsp/default_/ui/casLogoutView_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/work/Catalina/localhost/cas/org/apache/jsp/WEB_002dINF/view/jsp/default_/ui/casLogoutView_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/work/Catalina/localhost/cas/org/apache/jsp/WEB_002dINF/view/jsp/protocol/_3_0/casServiceValidationSuccess_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/work/Catalina/localhost/cas/org/apache/jsp/WEB_002dINF/view/jsp/protocol/_3_0/casServiceValidationSuccess_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/work/Catalina/localhost/cas/org/apache/jsp/index_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-cas-server/cas-tomcat/work/Catalina/localhost/cas/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-cas-register/2-cas-register.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-cas-register/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-cas-register/src/main/java/cas/demo/regiseter/RegisterCenterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-cas-register/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-cas-register/target/classes/META-INF/cas-register.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-cas-register/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-cas-register/target/classes/cas/demo/regiseter/RegisterCenterApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-cas-gateway/3-cas-gateway.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-cas-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-cas-gateway/src/main/java/com/ygego/cas/gateway/demo/CasGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-cas-gateway/src/main/java/com/ygego/cas/gateway/demo/config/AccessFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-cas-gateway/src/main/java/com/ygego/cas/gateway/demo/config/CasSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-cas-gateway/src/main/java/com/ygego/cas/gateway/demo/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-cas-gateway/src/main/java/com/ygego/cas/gateway/demo/service/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-cas-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-cas-gateway/target/classes/META-INF/cas-gateway.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-cas-gateway/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-cas-gateway/target/classes/com/ygego/cas/gateway/demo/CasGatewayApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-cas-gateway/target/classes/com/ygego/cas/gateway/demo/config/AccessFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-cas-gateway/target/classes/com/ygego/cas/gateway/demo/config/CasSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-cas-gateway/target/classes/com/ygego/cas/gateway/demo/config/WebSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-cas-gateway/target/classes/com/ygego/cas/gateway/demo/service/CustomUserDetailsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-cas-gateway1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-cas-gateway1/src/main/java/com/ygego/cas/gateway1/demo/CasGateway1Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-cas-gateway1/src/main/java/com/ygego/cas/gateway1/demo/config/AccessFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-cas-gateway1/src/main/java/com/ygego/cas/gateway1/demo/config/CasSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-cas-gateway1/src/main/java/com/ygego/cas/gateway1/demo/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-cas-gateway1/src/main/java/com/ygego/cas/gateway1/demo/service/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-cas-gateway1/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-cas-gateway1/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-cas-gateway1/target/classes/com/ygego/cas/gateway1/demo/CasGateway1Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-cas-gateway1/target/classes/com/ygego/cas/gateway1/demo/config/AccessFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-cas-gateway1/target/classes/com/ygego/cas/gateway1/demo/config/CasSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-cas-gateway1/target/classes/com/ygego/cas/gateway1/demo/config/WebSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-cas-gateway1/target/classes/com/ygego/cas/gateway1/demo/service/CustomUserDetailsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-cas-test-application1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-cas-test-application1/src/main/java/com/ygego/cas/test/application1/TestApplication1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-cas-test-application1/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-cas-test-application1/target/classes/META-INF/cas-test-application1.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-cas-test-application1/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-cas-test-application1/target/classes/com/ygego/cas/test/application1/TestApplication1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-cas-test-application2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-cas-test-application2/src/main/java/com/ygego/cas/test/application2/TestApplication2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-cas-test-application2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-cas-test-application2/target/classes/META-INF/cas-test-application2.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-cas-test-application2/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-cas-test-application2/target/classes/com/ygego/cas/test/application2/TestApplication2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cas-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VVSQXtXns2ai6CfwEe5O2QoMoF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last.edited.regexp" value="* A convenience annotation that is itself annotated with" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cas.demo.regiseter" />
+      <recent name="com.ygego.cas.test.application2" />
+      <recent name="com.ygego.cas.gateway.demo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\resource\cas-demo" />
+      <recent name="D:\workspace\resource\cas-demo\4-cas-gateway1\src\main\resources" />
+      <recent name="D:\workspace\resource\cas-demo\4-cas-gateway1\src\main\java\com\ygego\cas\gateway1\demo" />
+      <recent name="D:\workspace\resource\cas-demo\1-cas-server\cas-tomcat" />
+      <recent name="D:\workspace\resource\cas-demo\1-cas-server\cas-tomcat\webapps" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CasGateway1Application">
+    <configuration name="CasGateway1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="4-cas-gateway1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ygego.cas.gateway1.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ygego.cas.gateway1.demo.CasGateway1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CasGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="3-cas-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ygego.cas.gateway.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ygego.cas.gateway.demo.CasGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="2-cas-register" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cas.demo.regiseter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cas.demo.regiseter.RegisterCenterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestApplication1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="5-cas-test-application1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ygego.cas.test.application1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ygego.cas.test.application1.TestApplication1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="6-cas-test-application2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ygego.cas.test.application2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ygego.cas.test.application2.TestApplication2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CasGateway1Application" />
+        <item itemvalue="Spring Boot.TestApplication2" />
+        <item itemvalue="Spring Boot.TestApplication1" />
+        <item itemvalue="Spring Boot.CasGatewayApplication" />
+        <item itemvalue="Spring Boot.RegisterCenterApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.2433121" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e55d3d9-f0ed-45b8-bfbe-1cacea1353c2" name="Default Changelist" comment="" />
+      <created>1577336753942</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577336753942</updated>
+      <workItem from="1577336757058" duration="10195000" />
+      <workItem from="1577349188622" duration="4513000" />
+      <workItem from="1577354005269" duration="808000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cas demo 基本功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="cas demo 基本功能" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1044" y="280" key="#com.intellij.ide.util.MemberChooser" timestamp="1577347711065">
+      <screen x="94" y="0" width="2466" height="1440" />
+    </state>
+    <state x="1044" y="280" key="#com.intellij.ide.util.MemberChooser/94.0.2466.1440@94.0.2466.1440" timestamp="1577347711065" />
+    <state x="478" y="154" key="CommitChangelistDialog2" timestamp="1577355858268">
+      <screen x="94" y="0" width="2466" height="1440" />
+    </state>
+    <state x="478" y="154" key="CommitChangelistDialog2/94.0.2466.1440@94.0.2466.1440" timestamp="1577355858268" />
+    <state width="1781" height="694" key="GridCell.Tab.0.bottom" timestamp="1577353720137">
+      <screen x="94" y="0" width="2466" height="1440" />
+    </state>
+    <state width="1781" height="694" key="GridCell.Tab.0.bottom/94.0.2466.1440@94.0.2466.1440" timestamp="1577353720137" />
+    <state width="1781" height="694" key="GridCell.Tab.0.center" timestamp="1577353720136">
+      <screen x="94" y="0" width="2466" height="1440" />
+    </state>
+    <state width="1781" height="694" key="GridCell.Tab.0.center/94.0.2466.1440@94.0.2466.1440" timestamp="1577353720136" />
+    <state width="1781" height="694" key="GridCell.Tab.0.left" timestamp="1577353720136">
+      <screen x="94" y="0" width="2466" height="1440" />
+    </state>
+    <state width="1781" height="694" key="GridCell.Tab.0.left/94.0.2466.1440@94.0.2466.1440" timestamp="1577353720136" />
+    <state width="1781" height="694" key="GridCell.Tab.0.right" timestamp="1577353720137">
+      <screen x="94" y="0" width="2466" height="1440" />
+    </state>
+    <state width="1781" height="694" key="GridCell.Tab.0.right/94.0.2466.1440@94.0.2466.1440" timestamp="1577353720137" />
+    <state width="1781" height="694" key="GridCell.Tab.1.bottom" timestamp="1577353720137">
+      <screen x="94" y="0" width="2466" height="1440" />
+    </state>
+    <state width="1781" height="694" key="GridCell.Tab.1.bottom/94.0.2466.1440@94.0.2466.1440" timestamp="1577353720137" />
+    <state width="1781" height="694" key="GridCell.Tab.1.center" timestamp="1577353720137">
+      <screen x="94" y="0" width="2466" height="1440" />
+    </state>
+    <state width="1781" height="694" key="GridCell.Tab.1.center/94.0.2466.1440@94.0.2466.1440" timestamp="1577353720137" />
+    <state width="1781" height="694" key="GridCell.Tab.1.left" timestamp="1577353720137">
+      <screen x="94" y="0" width="2466" height="1440" />
+    </state>
+    <state width="1781" height="694" key="GridCell.Tab.1.left/94.0.2466.1440@94.0.2466.1440" timestamp="1577353720137" />
+    <state width="1781" height="694" key="GridCell.Tab.1.right" timestamp="1577353720137">
+      <screen x="94" y="0" width="2466" height="1440" />
+    </state>
+    <state width="1781" height="694" key="GridCell.Tab.1.right/94.0.2466.1440@94.0.2466.1440" timestamp="1577353720137" />
+    <state width="1781" height="694" key="GridCell.Tab.2.bottom" timestamp="1577353720137">
+      <screen x="94" y="0" width="2466" height="1440" />
+    </state>
+    <state width="1781" height="694" key="GridCell.Tab.2.bottom/94.0.2466.1440@94.0.2466.1440" timestamp="1577353720137" />
+    <state width="1781" height="694" key="GridCell.Tab.2.center" timestamp="1577353720137">
+      <screen x="94" y="0" width="2466" height="1440" />
+    </state>
+    <state width="1781" height="694" key="GridCell.Tab.2.center/94.0.2466.1440@94.0.2466.1440" timestamp="1577353720137" />
+    <state width="1781" height="694" key="GridCell.Tab.2.left" timestamp="1577353720137">
+      <screen x="94" y="0" width="2466" height="1440" />
+    </state>
+    <state width="1781" height="694" key="GridCell.Tab.2.left/94.0.2466.1440@94.0.2466.1440" timestamp="1577353720137" />
+    <state width="1781" height="694" key="GridCell.Tab.2.right" timestamp="1577353720137">
+      <screen x="94" y="0" width="2466" height="1440" />
+    </state>
+    <state width="1781" height="694" key="GridCell.Tab.2.right/94.0.2466.1440@94.0.2466.1440" timestamp="1577353720137" />
+    <state x="626" y="143" key="SettingsEditor" timestamp="1577353502718">
+      <screen x="94" y="0" width="2466" height="1440" />
+    </state>
+    <state x="626" y="143" key="SettingsEditor/94.0.2466.1440@94.0.2466.1440" timestamp="1577353502718" />
+    <state x="187" y="392" key="new project wizard" timestamp="1577352757177">
+      <screen x="94" y="0" width="2466" height="1440" />
+    </state>
+    <state x="187" y="392" key="new project wizard/94.0.2466.1440@94.0.2466.1440" timestamp="1577352757177" />
+    <state x="807" y="0" width="1009" height="1436" key="search.everywhere.popup" timestamp="1577352114805">
+      <screen x="94" y="0" width="2466" height="1440" />
+    </state>
+    <state x="807" y="0" width="1009" height="1436" key="search.everywhere.popup/94.0.2466.1440@94.0.2466.1440" timestamp="1577352114805" />
+  </component>
+</project>
