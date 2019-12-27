@@ -62,4 +62,31 @@
 > 结论：说明zuul是在security 认证之后，才进入的路由拦截器。
 
 ## 6. 认证流程
-![avatar](0-doc/认证流程.svg)
+```sequence
+Title: CAS认证流程图
+用户-> 网关: http://localhost:6001/test1/hello
+网关-> 网关: 校验是否已经登录
+网关-> 认证中心: 未认证跳转到认证中心
+认证中心->认证中心: 通过cookie去认证中心的TGT中从查询是否已经登录
+认证中心->认证中心: 未登录跳转到登录页，进行登录
+认证中心->认证中心: 登录成功，保存cookie，重定向到网关，并且携带者ticket
+认证中心--> 网关: http://localhost:6001/test1/hello?ticket=sldfjdskajfsdf
+网关->认证中心: 拿着ticket校验是否登录
+认证中心-->网关: 成功并且返回用户名
+网关-> 网关: 在userdetailService中可以获取username,如果想要获取用户更多信息可以插叙你数据库
+网关-> test1: 认证通过跳转到test1服务
+test1--> 用户: 应用将数据返回给用户
+
+
+用户->网关: http://localhost:6001/test1/hello
+网关-> 网关: 校验是否已经登录
+网关-> 认证中心: 未认证跳转到认证中心
+认证中心->认证中心: 通过cookie去认证中心的TGT中从查询是否已经登录
+认证中心->认证中心: 已登录，重定向到网关，并且携带者ticket
+认证中心--> 网关: http://localhost:6001/test2/hello?ticket=sldfjdskajfsdf
+网关->认证中心: 拿着ticket校验是否登录
+认证中心-->网关: 成功并且返回用户名
+网关-> 网关: 在userdetailService中可以获取username,如果想要获取用户更多信息可以插叙你数据库
+网关-> test2: 认证通过跳转到test2服务
+test2--> 用户: 应用将数据返回给用户
+```
